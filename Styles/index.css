@@ -1,5 +1,5 @@
 .hero-section {
-    background-image: url('/Assets/Hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-    background-color: #3b36cc;
+    background-color: #252292;
 }
 
 .hero-content {
@@ -40,15 +40,62 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px 20px;
+    padding: 0px 0px;
 }
 
 .custom-text {
     font-family: 'Raleway', sans-serif;
-    font-size: 65px;
-    font-weight: 700;
-    color: #1e1e1e;
-    margin-bottom: 30px;
+    margin: 0px;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.Review {
+  padding: 80px 50px;
+  background-color: #f8faff;
+  text-align: center;
+}
+
+.Review-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.review-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
